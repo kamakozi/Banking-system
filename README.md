@@ -5,5 +5,5 @@
 - [x] Deposit
 - [x] Withdrawal
 - [ ] Transactions
-- [X] Custom IBAN for every user
-- [ ] Loan money
+- [x] Custom IBAN for every user
+- [x] Loan money
