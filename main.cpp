@@ -267,16 +267,15 @@ void loanMoney() {
 void profile() {
     int prof;
     while(prof !=4){
-        cout << "1.Account info\n2.Deposit\n3.Withdrawal\n4.Loans\n6.Log out\nSelect: " << endl;
+        cout << "1.Account info\n2.Deposit\n3.Withdrawal\n4.Loans\n5.Log out\nSelect: " << endl;
         cin >> prof;
         switch(prof) {
 
             case 1:data(); break;
             case 2: deposit(); break;
             case 3: withdrawal(); break;
-            case 4 : data(); break;
-            case 5:loanMoney(); break;
-            case 6 : break;
+            case 4 : loanMoney(); break;
+            case 5: break;
 
 
         }
